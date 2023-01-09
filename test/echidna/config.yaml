@@ -1,8 +1,0 @@
-corpusDir: 'corpus'
-initialize: 'test/echidna/init.json'
-testMode: assertion
-testLimit: 5000
-shrinkLimit: 500
-testMaxGas: 800003000
-timeout: 3600 # 1 hour
-codeSize: 0xfffffffffff # maximize code size
