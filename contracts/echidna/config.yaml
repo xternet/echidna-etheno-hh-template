@@ -1,0 +1,9 @@
+corpusDir: 'corpus'
+initialize: 'contracts/echidna/init.json'
+testMode: assertion
+testLimit: 5000
+shrinkLimit: 500
+testMaxGas: 800003000
+sender: ["0x6A4A62E5A7eD13c361b176A5F62C2eE620Ac0DF8"] #
+timeout: 3600 # 1 hour
+codeSize: 0xfffffffffff # maximize code size
