@@ -15,35 +15,11 @@ module.exports = {
   mocha: {
     timeout: 1000000,
   },
-  solidity: {
-    compilers: [
-      {
-        version: "0.8.17",
-        settings: {
-          optimizer: {
-            enabled: true,
-            runs: 200
-          }
-        },
-      },
-      {
-        version: "0.8.16",
-        settings: {
-          optimizer: {
-            enabled: true,
-            runs: 200
-          }
-        },
-      },
-    ],
-  },
+  solidity: "0.8.17",
   paths: {
     artifacts: './artifacts',
     cache: './cache',
     sources: './contracts',
     tests: './test',
-  },
-  mocha: {
-    timeout: 10000000
   },
 };
